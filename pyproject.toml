@@ -1,0 +1,9 @@
+[project]
+name = "k3-scallop-migration"
+version = "0.1.0"
+description = "Scallop parity break and migration: amplitude law, K-theory control, Bushuk field test (paper3)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
