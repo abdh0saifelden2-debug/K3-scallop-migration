@@ -46,7 +46,10 @@ Provenance).
 ## What is pending
 
 - Running `scallop_field_test.py` against the digitized Bushuk scallop train.
-- GPU re-runs of the keystone control on a CUDA device.
+- GPU re-runs of the keystone control on a CUDA device. The GPU backend
+  verification harness `gpu_family_sweep.py` spans K2, this cluster and K5 and
+  is preserved in the monorepo archive
+  ([`glaciers/gpu_family_sweep.py`](https://github.com/abdh0saifelden2-debug/K/blob/main/glaciers/gpu_family_sweep.py)).
 - Coupling the verified migration law into the cavity solver of
   `K2-subglacial-cavity` (the two clusters share the same `subglacial/` library).
 
@@ -94,7 +97,7 @@ Split out of the **K** monorepo, partitioned by claim cluster:
 
 The pristine monorepo was snapshotted **before** any edit:
 `K-monorepo-archive.tar.gz`, SHA-256
-`3c30c68b4d4287787af00539b2cbe75a47dc0536491ec0d1b17a0f61d80b5304`
+`ef637ff55f912a5d1404f677429f9429eccc8102a8cab23cee79cf055bbf1220`
 (`K-monorepo-archive.sha256`). The cross-repo claim ledger (`FUTURE_WORK.md`)
 and paper outline are deliberately **not** copied here — they live only in that
 archive. [`AUDIT.md`](AUDIT.md) records the full split audit: every vendored
