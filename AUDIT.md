@@ -58,7 +58,7 @@ Copied byte-for-byte from the monorepo paths below (this is what makes the repo 
 
 ## Test-suite accounting
 
-`tests/` carries **15 test files** (glaciers/tests (51) − 36 that went to K2); the whole monorepo has 136 test files across the five repos (78+36+15+2+2 = 133, plus the 3 excluded in K1).
+`tests/` carries **15 test files** (glaciers/tests (51) − 36 that went to K2); the whole monorepo has 136 test files across the five repos (78+39+15+2+2 = 136; the NR33–NR35 modules relocated from K1 now count under K2).
 
 ## Verification
 
