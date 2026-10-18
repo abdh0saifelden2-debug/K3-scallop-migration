@@ -76,7 +76,7 @@ python3 -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 python scallop_amplitude_harmonics.py
 python run_candidate3.py
-python -m pytest            # 111 passed, 1 skipped
+python -m pytest            # 111 passed in CI
 ```
 
 > **Note on figures:** some tests re-derive figure JSONs (`figures/58_*`), which
